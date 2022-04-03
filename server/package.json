@@ -1,0 +1,23 @@
+{
+  "name": "vktest-server",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsc --watch & nodemon ./dest/index.js",
+    "build": "tsc --build",
+    "up": "export NODE_ENV=production && node ./dest/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pg": "^8.6.5",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "dotenv": "^16.0.0",
+    "mongodb": "^4.4.1",
+    "pg": "^8.7.3"
+  }
+}

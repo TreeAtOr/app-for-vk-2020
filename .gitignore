@@ -1,0 +1,6 @@
+data
+/*/node_modules
+
+/server/dest
+/client/build
+/server/.env
